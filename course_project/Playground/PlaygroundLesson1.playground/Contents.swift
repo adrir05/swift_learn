@@ -28,12 +28,14 @@ var miMatriz = [[1,2,3],[7,8,9]]
 
 miMatriz
 
-// Clases
+// Clases: Sirven para instanciar objetos que obtendran todas las propiedades creadas dentro de la clase
 
 class miClase {
 
     var miPropiedad = "Esta es mi propiedad"
-
-
+    var miPropiedad0 = 3
 }
 
+
+// Objeto: Este objeto es del tipo miClase, el cual contiene todas las propiedades dictadas dentro de miClase
+var miObjeto = miClase()
